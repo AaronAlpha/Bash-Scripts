@@ -1,0 +1,30 @@
+#!/bin/bash
+
+
+a="$1"
+b="${a: -2}" # getting the last 2 chars of the haskell file passed - the file extension (hs)
+
+len=${#a} # getting the length of the passed in file name
+
+echo "$b"
+echo -e "Compiling and running the Haskell script.\n"
+
+
+if [ "$b" = "hs" ]; then
+  
+  eval "$(ghc "$a")"
+
+  echo -e "Compiled!\n"
+  echo -e "Running now...\n"
+  echo -e "----------------code below----------------\n"
+  eval ./"${a:0:len-3}"
+
+  
+  echo -e "----------------code above----------------\n"
+  echo "Yippie, it ran"
+else 
+  echo "Invalid file - not a Haskell program."
+
+
+fi
+
