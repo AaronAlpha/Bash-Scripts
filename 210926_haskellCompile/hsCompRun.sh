@@ -12,7 +12,8 @@ echo -e "Compiling and running the Haskell script.\n"
 
 if [ "$b" = "hs" ]; then
   
-  eval "$(ghc "$a")"
+  eval "$(ghc "$a")" # have to check if exit code of this command is 1 (basically not 0), and if so I can run a diff output that the compile failed and thus the run didn't occur
+
 
   echo -e "Compiled!\n"
   echo -e "Running now...\n"
