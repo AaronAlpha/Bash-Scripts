@@ -24,7 +24,7 @@ cwd = current working directory
 
 
 2) haskellCompile
-- **automates the process of compiling Haskell programs, AND, running the compiled program if compiled: instead of "ghc file.hs", then "./file" --> "hCompile file.hs"**
+- **automates the process of compiling Haskell programs, AND, running the compiled program if compiled: instead of "ghc file.hs", then "./file" --> "hsCompRun file.hs"**
 - this would still produce the binary, .hi and .o files after compiling
 
 
