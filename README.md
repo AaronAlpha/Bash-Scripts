@@ -1,17 +1,19 @@
 # Bash-Scripts
 
-### Brief
+## Overview
 This repo is a collection of random Bash-Scripts I have created on my personal device(s).
 
 They are used to automate some aspects of my workflow, AND, are meant to serve as practice writing Bash-Scripts (generally) - thus the simplicity of the scripts so far.
 
-Status:
+---
+
+## Status
 1) haskellCompile - is partially complete -> I have to develop a segment in the code that outputs error messages and kills the running instead of outputting the error message as the "executed-code"
 2) gitCheck - under development
 
 ---
 
-### Scripts
+## Scripts
 Scripts (order of creation):
 (these scripts can be added to local devices "/usr/local/bin/" as a global script (can also remove the file extension and run as typical cli command like "cd")
 cwd = current working directory
