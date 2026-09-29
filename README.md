@@ -21,7 +21,7 @@ cwd = current working directory
 1) chmodBash - **automates the process of providing execution permissions to Bash-Scripts: instead of "chmod +x file.sh" --> "chmG file.sh"**
              - then run the script as normal: "./file.sh"
    
-2) haskellCompile - **automates the process of compiling Haskell programs, AND, running the compiled program if compiled: instead of "ghc file.hs", then "./file" --> "hCompile file.hs"**
+2) haskellCompile - **automates the process of compiling Haskell programs, AND, running the compiled program if compiled: instead of "ghc file.hs", then "./file" --> "hCompile file.hs"**\n
                   - this would still produce the binary, .hi and .o files after compiling
 
 3) gitCheck - **automates the process of calling "[onefetch](https://github.com/o2sh/onefetch)" within a local git repo or not: (within a git repo or not) instead of "cd \*dir\*" and "onefetch" (as 2 separate commands) --> "cd \*dir\*" and onefetch is called implicitly if the cwd is a git repo**
