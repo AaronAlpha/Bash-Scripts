@@ -1,4 +1,6 @@
 # Bash-Scripts
+
+### Brief
 This repo is a collection of random Bash-Scripts I have created on my personal device(s).
 
 They are used to automate some aspects of my workflow, AND, are meant to serve as practice writing Bash-Scripts (generally) - thus the simplicity of the scripts so far.
@@ -9,6 +11,7 @@ Status:
 
 ---
 
+### Scripts
 Scripts (order of creation):
 (these scripts can be added to local devices "/usr/local/bin/" as a global script (can also remove the file extension and run as typical cli command like "cd")
 cwd = current working directory
